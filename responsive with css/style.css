@@ -1,0 +1,45 @@
+.pictures {
+    padding:0 5vmax;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2vmax;
+
+}
+
+.pictures img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 5% 5% 5%;
+    border: 1px solid black;
+}
+
+.items * {
+    margin: 0;
+}
+
+.items h4 {
+    margin-top: 1vmax;
+} 
+
+
+header, footer { 
+    padding: 1.6vmax;
+    font-size: 1.3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1, header h5 {
+   
+    margin: 0;
+}
