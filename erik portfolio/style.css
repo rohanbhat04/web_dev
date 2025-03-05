@@ -1,0 +1,513 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+nav {
+  padding-bottom: 3vmax;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .leftnav,
+nav .rightnav {
+  font-size: 2rem;
+}
+nav .rightnav {
+  display: flex;
+  gap: 1rem;
+}
+nav .rightnav h4 {
+  font-weight: 100;
+}
+nav .rightexpanded {
+  display: none;
+}
+
+.header {
+  width: 100%;
+}
+
+header img {
+  width: 100%;
+}
+header div {
+  padding: 1rem 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.contentbox1 {
+  width: 100%;
+}
+
+.contentbox1 img {
+  width: 100%;
+}
+.contentbox1 div {
+  display: flex;
+  flex-direction: column;
+}
+.contentbox1 h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 3.2rem;
+  padding-top: 2rem;
+}
+.contentbox1 h4 {
+  padding-top: 1rem;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.categories {
+  padding: 2rem 0;
+  width: 100%;
+}
+.categories .container_boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  font-size: 2rem;
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+.categories div:last-child {
+  border: none;
+}
+.categories div h4 {
+  font-weight: 100;
+}
+
+.contentbox1 {
+  position: relative;
+}
+.contentbox1 div {
+  display: flex;
+  align-items: center;
+}
+.contentbox1 div img {
+  width: 100%;
+}
+.contentbox1 div .content {
+  flex: 1;
+}
+
+.services {
+  padding-bottom: 2rem;
+  border-bottom: 1px dotted rgb(68, 68, 68);
+}
+.services #heading {
+  font-size: 2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-bottom: 1px dotted rgb(44, 44, 44);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.services div h1 {
+  font-weight: 200;
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+.services .box p {
+  font-size: 1.6rem;
+  color: rgb(117, 117, 117);
+  padding: 1rem 0;
+}
+.services .box {
+  border-bottom: 1px dotted rgb(44, 44, 44);
+  padding-bottom: 2rem;
+}
+.services .box h5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.services .lastbox {
+  border: none;
+}
+.services .box div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.services .box i {
+  padding: 7px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+}
+.services img {
+  width: 100%;
+}
+
+.work img {
+  width: 100%;
+}
+.work h1 {
+  text-transform: uppercase;
+  padding: 2rem 0;
+}
+.work h4 {
+  font-size: 1.2rem;
+  width: 80%;
+}
+.work .box2 {
+  padding: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.work .box2 i {
+  padding: 7px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+}
+.work .box h4 {
+  font-size: 1.2rem;
+  color: rgb(117, 117, 117);
+}
+.work .box2 h5 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+#hidden1, #hidden2 {
+  display: none;
+}
+
+.clients h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.clients .box3 {
+  text-transform: uppercase;
+  padding: 2rem 0;
+  border-bottom: 1px dotted rgb(82, 82, 82);
+}
+.clients .box3 h3 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  font-weight: 100;
+}
+
+.teams {
+  padding: 2rem 0;
+}
+.teams .boxteam h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 100;
+  padding-bottom: 1rem;
+}
+.teams .boxteam p {
+  font-size: 1.3rem;
+  color: rgb(90, 90, 90);
+}
+.teams .box4 {
+  padding: 1rem 0;
+}
+.teams .box4 img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.teams .box4 h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 1rem 0;
+  font-weight: 100;
+}
+.teams .box4 h5 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  font-weight: 100;
+}
+.teams .box4 p {
+  font-size: 1.4rem;
+  color: rgb(113, 113, 113);
+}
+
+.banner {
+  border-top: 1px dotted rgb(103, 103, 103);
+}
+.banner h5 {
+  font-weight: 100;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+.banner h1 {
+  padding: 1rem 0 2rem 0;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.banner div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 2.5rem;
+}
+.banner div h5 {
+  padding: 0;
+}
+.banner div i {
+  padding: 7px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.containerfooter {
+  background-color: black;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+.containerfooter footer .top {
+  background-color: black;
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+.containerfooter footer .top h1,
+.containerfooter footer .top h2 {
+  width: 100%;
+  font-weight: 100;
+}
+.containerfooter footer .top button {
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  border-radius: 40px;
+  font-size: 1.1rem;
+}
+.containerfooter .contentbox2 {
+  color: white;
+}
+.containerfooter .contentbox2 button {
+  text-transform: uppercase;
+  padding: 1rem;
+  border-radius: 40px;
+  font-size: 1.1rem;
+}
+.containerfooter .contentbox2 h2 {
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 2rem 0 1rem 0;
+}
+.containerfooter .contentbox2 h3 {
+  font-weight: 100;
+  padding: 0.3rem 0;
+  text-transform: uppercase;
+}
+.containerfooter .contentbox2 .socials div {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+}
+.containerfooter .contentbox2 .socials div h3 {
+  font-weight: 100;
+}
+.containerfooter .contentbox2 .socials div i {
+  padding: 7px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 50%;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+.bottom {
+  color: rgb(133, 133, 133);
+  padding: 1.75rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.bottom h4 {
+  font-weight: 100;
+}
+.bottom div {
+  color: white;
+  font-size: 1.5rem;
+}
+.bottom button {
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  border-radius: 40px;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 551px) {
+  .work .box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5vw;
+    padding-bottom: 5vw;
+  }
+  .work .box img {
+    width: 45vw;
+  }
+  #txt1 h1, #txt2 h1 {
+    font-size: 6vw;
+  }
+  .box3 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0;
+  }
+  .clients .box3 {
+    padding: 0;
+  }
+  .box3 h3 {
+    flex-grow: 1;
+  }
+  .members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .contentbox2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+@media (min-width: 990px) {
+  .container {
+    padding: 1.5rem 4rem;
+  }
+  nav .rightexpanded {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .rightexpanded h5 {
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+  .leftside {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .contentbox1 {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  .contentbox1 img {
+    width: 45%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: left;
+       object-position: left;
+  }
+  .contentbox1 div h1 {
+    padding-top: 0;
+    font-size: 3rem;
+  }
+  .contentbox1 .categories {
+    padding-bottom: 0;
+  }
+  .content4 p {
+    font-size: 2rem;
+    padding: 2.4rem 0;
+  }
+  .services {
+    display: flex;
+    gap: 2rem;
+  }
+  .services img {
+    width: 45%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: right;
+       object-position: right;
+  }
+  #boxGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  #heading {
+    border: none;
+  }
+  #b3 {
+    border: none;
+  }
+  .box h1 {
+    padding: 0;
+  }
+  #hidden1, #hidden2 {
+    display: block;
+  }
+  .work {
+    display: flex;
+    flex-direction: column;
+  }
+  .work .box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .work .box img {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+  .clients {
+    width: 100%;
+    padding-left: 25%;
+  }
+  .clients .box3 {
+    padding: 0;
+  }
+  .members {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .teams .boxteam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 25%;
+  }
+  .teams .boxteam h1 {
+    font-size: 8vw;
+  }
+  .banner {
+    margin-left: 50%;
+  }
+  .containerfooter {
+    padding: 0 4rem;
+  }
+  .contentbox2 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}/*# sourceMappingURL=style.css.map */
